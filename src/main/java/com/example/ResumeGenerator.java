@@ -15,7 +15,7 @@ public class ResumeGenerator {
             PdfDocument pdf = new PdfDocument(writer);
             Document document = new Document(pdf);
 
-            document.add(new Paragraph("N Ashok Reddy").setBold().setFontSize(20));
+            document.add(new Paragraph("Nareddy Ashok Reddy").setBold().setFontSize(20));
             document.add(new Paragraph("Email: ashok@example.com | Phone: +91-9876543210"));
             document.add(new Paragraph("LinkedIn: linkedin.com/in/ashok | GitHub: github.com/ashok"));
             document.add(new Paragraph("\nEducation")
